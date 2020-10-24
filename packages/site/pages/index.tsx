@@ -17,8 +17,10 @@ javascript: (function () {
       var seconds = Number(parts[2]);
       var total = hoursSeconds + minuteSeconds + seconds;
       url = url + '&t=' + total;
+    } catch (e) {
+      console.error(e);
     }
-    console.info('Sending to', newUrl);
+    console.info('Sending to', url);
     fetch('https://iono.mael.tech/api/transmit', {
       method: 'POST',
       body: JSON.stringify({
