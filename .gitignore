@@ -132,3 +132,7 @@ web-build/
 
 # macOS
 .DS_Store
+
+# yarn
+.yarn
+.yarnrc
