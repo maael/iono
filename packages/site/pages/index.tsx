@@ -61,7 +61,7 @@ export default function Index() {
           , the latest is{' '}
           <a
             style={{ textDecorationLine: 'underline' }}
-            href="https://github.com/maael/iono/releases/download/v1.0.0/iono-43101b659ea645e6874ee2dd325e5762-signed.apk"
+            href="https://github.com/maael/iono/releases/download/v1.0.0/iono-6b0534cec6fe48829a631b7adda5c9d8-signed.apk"
           >
             here
           </a>

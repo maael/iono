@@ -19,7 +19,8 @@
     "android": {
       "useNextNotificationsApi": true,
       "versionCode": 1,
-      "package": "tech.mael.iono"
+      "package": "tech.mael.iono",
+      "googleServicesFile": "./google-services.json"
     },
     "ios": {
       "supportsTablet": true,

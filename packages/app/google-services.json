@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "822114128463",
+    "firebase_url": "https://iono-3eddb.firebaseio.com",
+    "project_id": "iono-3eddb",
+    "storage_bucket": "iono-3eddb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822114128463:android:db48597dff0132a6a0d03a",
+        "android_client_info": {
+          "package_name": "tech.mael.iono"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822114128463-7c8q5ectoi8ce86a5f68hn55cbsk8p9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2MtabJjt9cl6SIGnF2_GLvxFno6ul0Go"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "822114128463-7c8q5ectoi8ce86a5f68hn55cbsk8p9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
