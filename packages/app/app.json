@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "Iono",
+    "slug": "iono",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2C2C2C"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "useNextNotificationsApi": true,
+      "enableDangerousExperimentalLeanBuilds": true,
+      "versionCode": 1,
+      "package": "tech.mael.iono"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "tech.mael.iono",
+      "buildNumber": "1.0.0"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "backgroundColor": "#2C2C2C",
+    "primaryColor": "#0F82AF",
+    "notification": {
+      "color": "#0F82AF",
+      "icon": "./assets/notification.png"
+    },
+    "androidNavigationBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#0F82AF"
+    },
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "maael",
+            "project": "iono",
+            "authToken": "563144854b374165b9c073f74c4b1a784323e0931d2e4619abc32d2fc92b427e"
+          }
+        }
+      ]
+    }
+  }
+}
