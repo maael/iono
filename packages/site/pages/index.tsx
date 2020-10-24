@@ -23,6 +23,9 @@ javascript: (function () {
     console.info('Sending to', url);
     fetch('https://iono.mael.tech/api/transmit', {
       method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
       body: JSON.stringify({
         token,
         title,
