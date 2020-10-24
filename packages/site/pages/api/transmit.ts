@@ -3,7 +3,7 @@ import { Expo } from 'expo-server-sdk'
 import Cors from 'micro-cors'
 
 const cors = Cors({
-  allowedMethods: ['GET', 'HEAD'],
+  allowedMethods: ['POST', 'HEAD', 'OPTIONS'],
 })
 
 const expo = new Expo()
