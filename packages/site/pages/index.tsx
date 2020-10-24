@@ -36,9 +36,18 @@ javascript: (function () {
 export default function Index() {
   const [code, setCode] = useState('')
   return (
-    <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
-      <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column', maxWidth: '80vw' }}>
-        <div style={{ fontSize: '5em', marginTop: '6vh', flex: 1 }}>Iono</div>
+    <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column', height: '100vh' }}>
+      <div
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          flexDirection: 'column',
+          maxWidth: '80vw',
+          paddingBottom: '1.5em',
+          flex: 1,
+        }}
+      >
+        <div style={{ fontSize: '5em', marginTop: '6vh' }}>Iono</div>
         <div style={{ marginBottom: '1em' }}>
           Download the Android .apk{' '}
           <a style={{ textDecorationLine: 'underline' }} href="https://github.com/maael/iono/releases">
@@ -49,7 +58,7 @@ export default function Index() {
             style={{ textDecorationLine: 'underline' }}
             href="https://github.com/maael/iono/releases/download/v1.0.0/iono-43101b659ea645e6874ee2dd325e5762-signed.apk"
           >
-            here.
+            here
           </a>
           .
         </div>
@@ -78,10 +87,9 @@ export default function Index() {
           justifyContent: 'center',
           flexDirection: 'row',
           width: '100vw',
-          height: '50vh',
-          bottom: 0,
-          left: 0,
-          position: 'absolute',
+          height: '70vh',
+          flex: 1,
+          position: 'relative',
           overflow: 'hidden',
         }}
       >
@@ -115,7 +123,15 @@ export default function Index() {
             borderRadius: '200vmax',
           }}
         />
-        <div style={{ position: 'absolute', top: '50%', transform: 'translateY(-50%)', textAlign: 'center' }}>
+        <div
+          style={{
+            position: 'absolute',
+            top: '50%',
+            transform: 'translateY(-50%)',
+            textAlign: 'center',
+            paddingBottom: '1em',
+          }}
+        >
           <a
             style={{
               textDecoration: `underline ${!code ? 'line-through' : ''}`,
