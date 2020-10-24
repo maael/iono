@@ -1,18 +1,15 @@
 {
-  "name": "betrayal-game",
+  "name": "iono-site",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Matthew Elphick <matt.a.elphy@gmail.com> (https://mael.tech)",
   "license": "MIT",
-  "workspaces": ["packages/site", "packages/app"],
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "prettier": "prettier --ignore-path .gitignore --write .",
-    "lint": "eslint -c .eslintrc.js --ext .tsx,.ts pages",
-    "get-screenshots": "ts-node-script scripts/get-screenshots"
+    "lint": "eslint -c .eslintrc.js --ext .tsx,.ts pages"
   },
   "husky": {
     "hooks": {
@@ -27,6 +24,7 @@
     ]
   },
   "dependencies": {
+    "expo-server-sdk": "^3.6.0",
     "fathom-client": "^3.0.0",
     "next": "^9.5.3",
     "next-seo": "^4.7.3",

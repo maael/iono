@@ -1,14 +1,3 @@
-# Next Template
+# Iono
 
-A simple repo to act as a template for a Next.js project.
-
-Includes:
-
-- Next.js
-- TypeScript
-- Prettier
-- Eslint
-- Prettier + Eslint on commit
-- Fathom Analytics hook
-- next-seo
-- Sane CSS reset/starting point
+An Expo app and Next.js website to help easily sending things to your phone to open.
