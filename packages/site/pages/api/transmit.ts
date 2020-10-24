@@ -1,5 +1,10 @@
 import { NextApiHandler } from 'next'
 import { Expo } from 'expo-server-sdk'
+import Cors from 'micro-cors'
+
+const cors = Cors({
+  allowedMethods: ['GET', 'HEAD'],
+})
 
 const expo = new Expo()
 
@@ -14,4 +19,4 @@ const handler: NextApiHandler = async (req, res) => {
   res.json({ ok: 1 })
 }
 
-export default handler
+export default cors(handler)
