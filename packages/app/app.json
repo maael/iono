@@ -18,7 +18,6 @@
     ],
     "android": {
       "useNextNotificationsApi": true,
-      "enableDangerousExperimentalLeanBuilds": true,
       "versionCode": 1,
       "package": "tech.mael.iono"
     },
