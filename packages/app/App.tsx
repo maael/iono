@@ -154,7 +154,7 @@ const styles = StyleSheet.create({
   text: {
     color: '#f0f0f7',
     marginVertical: 10,
-    maxWidth: '85%'
+    marginHorizontal: 10
   },
   link: {
     color: '#B3D561',
