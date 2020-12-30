@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import * as Fathom from 'fathom-client'
 
-const ID = ''
+const ID = 'WFGNWEQT'
 
 export default function useFathom() {
   const router = useRouter()
